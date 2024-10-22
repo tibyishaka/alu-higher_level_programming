@@ -4,10 +4,10 @@ if __name__ == "__main__":
     import sys
     j = {"+", "-", "*", "/"}
     if len(sys.argv) != 4:
-        print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+        print("Usage: ./100-my_calculator.py <a> <operator> <b>, file=sys.stderr")
         sys.exit(1)
     if sys.argv[2] not in j:
-        print("Unknown operator.Only: +, -, *, and / available")
+        print("Unknown operator.Only: +, -, *, and / available, file=sys.stderr")
         sys.exit(1)
     a = int(sys.argv[1])
     b = int(sys.argv[3])
