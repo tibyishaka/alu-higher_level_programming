@@ -8,7 +8,6 @@ if __name__ == "__main__":
         sys.exit(1)
     if sys.argv[2] not in j:
         print("Unknown operator.Only: +, -, *, and / available")
-        sys.stderr()
         sys.exit(1)
     a = int(sys.argv[1])
     b = int(sys.argv[3])
