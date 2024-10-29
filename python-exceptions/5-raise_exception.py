@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-raise NameError('hello there')
+try:
+    raise NameError('hello there')
+except NameError:
+    print("exception has been raised ")
+    raise
