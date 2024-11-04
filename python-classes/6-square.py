@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 ''' coordinates of a square '''
 
+
 class Square:
     ''' init '''
     def __init__(self, size=0, position=(0, 0)):
@@ -17,16 +18,16 @@ class Square:
             raise ValueError("size must be >= 0")
 
         self.__size = size
-
-    
+ 
     def __init__(self, size=0, position=(0, 0)):
         self.size = size
         self.position = position
+
     def size(self):
         return self.__size
 
     def size(self, value):
-        if not isinstance(size , int):
+        if not isinstance(size, int):
             raise TypeError("size must be an integer")
         elif size < 0:
             raise ValueError("size must be >= 0")
@@ -47,8 +48,8 @@ class Square:
         self.__position = position
 
     def area(self):
-        s_area = self.__size ** 2
-        return s_area
+        square_area = self.__size ** 2
+        return square_area
 
     def my_print(self):
         if self.__size == 0:
