@@ -48,8 +48,8 @@ class Square:
         self.__position = position
 
     def area(self):
-        square_area = self.__size ** 2
-        return square_area
+        ''' claculates the are'''
+        return self.__size ** 2
 
     def my_print(self):
         if self.__size == 0:
