@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 ''' creating a python class  and size validation with class '''
 
+
 class Square:
     ''' creating a square class with a private size attribute'''
     def __init__(self, size=0):
