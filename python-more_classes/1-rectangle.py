@@ -2,7 +2,7 @@
 '''class rectangle'''
 
 
-class Rctangle:
+class Rectangle:
     '''init function'''
     def __init__(self, width=0, height=0):
         self.__width = width
