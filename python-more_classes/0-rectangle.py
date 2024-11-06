@@ -2,5 +2,6 @@
 ''' this is an empty class'''
 
 class rectange:
+
     ''' this  is an empty rectnagle class '''
     pass
