@@ -54,7 +54,7 @@ class Rectangle:
             return 2 * (self.__height + self.__width)
 
     def __del__(self):
-        print("Bye Rectangle...")
+        print("Bye rectangle...")
 
     def __str__(self):
         '''Print the rectangle with using #'''
