@@ -53,6 +53,9 @@ class Rectangle:
         else:
             return 2 * (self.__height + self.__width)
 
+    def __del__(self):
+        print("Bye Rectangle...")
+
     def __str__(self):
         '''Print the rectangle with using #'''
         if self.__width == 0 or self.__height == 0:
@@ -73,5 +76,4 @@ class Rectangle:
         """
         return "Rectangle({}, {})".format(self.__width, self.__height)
 
-    def __del__(self):
-        print("Bye Rectangle ...")
+    
