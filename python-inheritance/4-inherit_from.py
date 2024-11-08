@@ -2,7 +2,7 @@
 '''is it the same or inherited '''
 
 
-def inherits_from(obj, class):
+def inherits_from(obj, a_class):
     '''inhertits from '''
 
 
