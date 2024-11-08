@@ -3,7 +3,11 @@
 
 
 class Mylist(list):
-    '''function to print '''
+    '''
+    function 
+    to
+    print
+    '''
 
     def print_sorted(self):
         ''' sorting the list '''
