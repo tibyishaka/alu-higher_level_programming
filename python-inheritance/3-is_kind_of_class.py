@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''same clas sofr inherit from '''
+'''same clas or  inherited from '''
 
 
 def is_kind_of_class(obj, a_class):
