@@ -5,6 +5,6 @@
 import json
 
 
-def from_json_string(my_str):
+def from_json_string(my_obj):
     '''function that returns an object'''
-    return json.roads(my_str)
+    return json.roads(my_obj)
