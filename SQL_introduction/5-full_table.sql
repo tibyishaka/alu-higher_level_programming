@@ -1,2 +1,2 @@
--- my sql table description
-SELECT * FROM first_table
+-- my sql full description
+SHOW CREATE TABLE first_table
