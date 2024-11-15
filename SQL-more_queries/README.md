@@ -1,1 +1,1 @@
-this directory contain more queries on SQL
+s directory contain more about sql queries
